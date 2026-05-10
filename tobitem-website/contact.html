@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Tobitem Downhole Solutions — Port Harcourt, Nigeria and Bloemfontein, South Africa. Speak with our technical team about your project." />
+  <title>Contact Us | Tobitem Downhole Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-mark">TDS</div>
+        <div class="logo-text"><span>Tobitem</span><span>Downhole Solutions</span></div>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="careers.html" class="nav-link">Careers</a></li>
+        <li><a href="hse.html" class="nav-link">HSE</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="search-wrap">
+          <input type="text" id="search-input" class="search-input" placeholder="Search..." />
+          <button id="search-btn" class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <button class="theme-toggle" id="theme-toggle"><i class="fas fa-moon"></i></button>
+        <a href="contact.html" class="btn btn-gold" style="padding:10px 22px;font-size:0.72rem;">Request Quote</a>
+        <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+    <a href="careers.html">Careers</a><a href="hse.html">HSE</a><a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-gold">Request Quote</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container page-hero-content">
+      <div class="eyebrow">Get in Touch</div>
+      <h1>Contact Us</h1>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="fas fa-chevron-right"></i>
+        <span>Contact</span>
+      </nav>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section section-pad">
+    <div class="container">
+      <div class="section-header text-center reveal" style="margin-bottom:56px;">
+        <div class="eyebrow">Contact Us</div>
+        <h2>Speak With Our Team</h2>
+        <p>Speak with our team about project requirements, technical challenges, or field support needs. We respond quickly to all enquiries.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- FORM -->
+        <div class="contact-form-wrap reveal-left">
+          <h3>Send a Message</h3>
+
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="field-name">Full Name *</label>
+                <input type="text" id="field-name" placeholder="Your full name" autocomplete="name" />
+                <div class="error-msg">Please enter your full name.</div>
+              </div>
+              <div class="form-group">
+                <label for="field-email">Email Address *</label>
+                <input type="email" id="field-email" placeholder="your@email.com" autocomplete="email" />
+                <div class="error-msg">Please enter a valid email address.</div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="field-phone">Phone Number *</label>
+                <input type="tel" id="field-phone" placeholder="+234 XXX XXX XXXX" autocomplete="tel" />
+                <div class="error-msg">Please enter a phone number.</div>
+              </div>
+              <div class="form-group">
+                <label for="field-company">Company Name *</label>
+                <input type="text" id="field-company" placeholder="Your company" autocomplete="organization" />
+                <div class="error-msg">Please enter your company name.</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="field-service">Service of Interest</label>
+              <select id="field-service">
+                <option value="">Select a service...</option>
+                <option>Oil Tool Rentals</option>
+                <option>Milling</option>
+                <option>Window Milling</option>
+                <option>Workovers</option>
+                <option>Abandonments</option>
+                <option>Man Power Supply</option>
+                <option>General Enquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="field-message">Message *</label>
+              <textarea id="field-message" placeholder="Describe your project, challenge, or enquiry..."></textarea>
+              <div class="error-msg">Please enter your message.</div>
+            </div>
+            <button type="submit" class="btn btn-gold" style="width:100%;justify-content:center;">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+
+          <!-- Success State -->
+          <div id="form-success" class="form-success">
+            <i class="fas fa-check-circle"></i>
+            <h4>Message Sent Successfully!</h4>
+            <p>Thank you for reaching out. Our team will get back to you within 24 hours.</p>
+          </div>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div class="contact-info-wrap reveal-right">
+
+          <!-- Nigeria HQ -->
+          <div class="contact-info-card">
+            <div class="contact-info-head">
+              <div class="cih-icon"><i class="fas fa-building"></i></div>
+              <h5>Nigeria Headquarters</h5>
+            </div>
+            <div class="footer-contact-item" style="margin-bottom:12px;">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Plot 7B Lord Emmanuel Drive, Rumuomasi, Port Harcourt, Rivers State, Nigeria.</p>
+            </div>
+
+            <div class="contact-person">
+              <h6>Idowu Ade Adeyemi</h6>
+              <div class="role">Fishing Consultant</div>
+              <p>
+                <i class="fas fa-phone-alt" style="color:var(--gold);margin-right:6px;font-size:0.8rem;"></i>
+                <a href="tel:+2347069744000">+234 706 974 4000</a>
+              </p>
+              <p>
+                <i class="fas fa-envelope" style="color:var(--gold);margin-right:6px;font-size:0.8rem;"></i>
+                <a href="mailto:fishing@tobitem.com">fishing@tobitem.com</a>
+              </p>
+              <p>
+                <i class="fas fa-envelope" style="color:var(--gold);margin-right:6px;font-size:0.8rem;"></i>
+                <a href="mailto:idowu.adeyemi@tobitem.com">idowu.adeyemi@tobitem.com</a>
+              </p>
+            </div>
+
+            <div class="contact-person">
+              <h6>Tosin Adedeji</h6>
+              <div class="role">Base Coordinator</div>
+              <p>
+                <i class="fas fa-phone-alt" style="color:var(--gold);margin-right:6px;font-size:0.8rem;"></i>
+                <a href="tel:+2348189173269">+234 818 917 3269</a>
+              </p>
+              <p>
+                <i class="fas fa-envelope" style="color:var(--gold);margin-right:6px;font-size:0.8rem;"></i>
+                <a href="mailto:admin@tobitem.com">admin@tobitem.com</a>
+              </p>
+            </div>
+
+            <div class="contact-person">
+              <h6>Stanley Benson</h6>
+              <div class="role">Business Development — Lagos</div>
+              <p>
+                <i class="fas fa-phone-alt" style="color:var(--gold);margin-right:6px;font-size:0.8rem;"></i>
+                <a href="tel:+2348185938765">+234 818 593 8765</a>
+              </p>
+              <p>
+                <i class="fas fa-envelope" style="color:var(--gold);margin-right:6px;font-size:0.8rem;"></i>
+                <a href="mailto:stanley.benson@tobitem.com">stanley.benson@tobitem.com</a>
+              </p>
+            </div>
+          </div>
+
+          <!-- South Africa -->
+          <div class="contact-info-card">
+            <div class="contact-info-head">
+              <div class="cih-icon"><i class="fas fa-globe-africa"></i></div>
+              <h5>South Africa Area Office</h5>
+            </div>
+            <div class="footer-contact-item" style="margin-bottom:12px;">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>3 Kliphourt Crescent, Lourier Park, Bloemfontein 9301, Free State, South Africa.</p>
+            </div>
+            <div class="contact-person">
+              <h6>Sheyi Adeyemi</h6>
+              <div class="role">Managing Director, South Africa</div>
+              <p>
+                <i class="fas fa-phone-alt" style="color:var(--gold);margin-right:6px;font-size:0.8rem;"></i>
+                <a href="tel:+27514380858">+27 51 438 0858</a> / <a href="tel:+27735244410">+27 73 524 4410</a>
+              </p>
+              <p>
+                <i class="fas fa-fax" style="color:var(--gold);margin-right:6px;font-size:0.8rem;"></i>
+                Fax: +27 86 764 7953
+              </p>
+            </div>
+          </div>
+
+          <!-- Map Placeholder -->
+          <div class="map-wrap">
+            <div class="map-placeholder">
+              <i class="fas fa-map-marked-alt"></i>
+              <p>Port Harcourt, Rivers State</p>
+              <p><a href="https://maps.google.com/?q=Port+Harcourt,+Nigeria" target="_blank" rel="noopener">Open in Google Maps →</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <div class="newsletter-text">
+        <h4>Subscribe to Our Newsletter</h4>
+        <p>We're a team of non-cynics who truly care for our work.</p>
+      </div>
+      <form class="newsletter-form" novalidate>
+        <input type="email" placeholder="Enter your email address" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <div class="logo-mark">TDS</div>
+            <div class="logo-text"><span>Tobitem</span><span>Downhole Solutions</span></div>
+          </a>
+          <p>We are committed to providing a superior level of customer service which is sometimes found lacking in today's largely profit-driven organizations.</p>
+          <div class="footer-social">
+            <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:fishing@tobitem.com" class="social-btn"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li><li><a href="careers.html">Careers</a></li>
+            <li><a href="hse.html">HSE Policy</a></li><li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Our Services</h5>
+          <ul class="footer-links">
+            <li><a href="services.html#tools">Oil Tool Rentals</a></li>
+            <li><a href="services.html#milling">Milling</a></li>
+            <li><a href="services.html#manpower">Man Power Supply</a></li>
+            <li><a href="services.html#abandonments">Abandonments</a></li>
+            <li><a href="services.html#workovers">Workovers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact Us</h5>
+          <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><p>Plot 7B Lord Emmanuel Drive, Rumuomasi, Port Harcourt, Rivers State, Nigeria.</p></div>
+          <div class="footer-contact-item"><i class="fas fa-phone-alt"></i><p><a href="tel:+2347069744000">+234 706 974 4000</a></p></div>
+          <div class="footer-contact-item"><i class="fas fa-envelope"></i><p><a href="mailto:fishing@tobitem.com">fishing@tobitem.com</a></p></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Tobitem Downhole Solutions Company Ltd. All Rights Reserved. Powered by <a href="https://tqtechno.com/" target="_blank" rel="noopener">#TQTECHNO</a></p>
+        <div class="footer-badge"><i class="fas fa-shield-alt"></i><span>ISO Compliant Operations</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  <script src="js/script.js"></script>
+</body>
+</html>
